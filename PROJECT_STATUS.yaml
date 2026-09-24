@@ -1,0 +1,44 @@
+# Declared status, not verified release readiness.
+# stage: prototype is provisional: no formal lifecycle stage is declared.
+# Empty modules/risks/debt lists mean no supported entries recorded, not absence.
+# updated.at_commit references inspected HEAD before the status commit; approved template convention.
+schema_version: 1
+project:
+  id: ras-ops-demo-page
+  name: RAS-OPS demo page
+  repo: kolevmvk/ras-ops-demo-page
+  kind: web
+  stage: prototype
+updated:
+  at: "2026-09-24T11:35:10Z"
+  by: codex
+  at_commit: "43df9b1a3ea6c49f4c335f75f5b8766d269c9907"
+summary: Static landing repository containing index.html and two application screenshots, titled ras-ops-demo
+  — komandni sistem za dežurstva. The latest commit adds Cloudflare Web Analytics. The repository does
+  not contain the Android application source.
+modules: []
+risks: []
+blockers: []
+technical_debt: []
+pending_verification:
+- id: V1
+  claim: The documented checks or repository-specific acceptance review have been completed.
+  module: null
+  how: Serve the static page locally and check links, screenshots and layout in a browser.
+  status: not_run
+  evidence: null
+next_actions: []
+release:
+  target_version: null
+  checklist:
+  - id: RC1
+    title: Release acceptance and intended deployment or repository handoff verified by the owner.
+    status: not_run
+    evidence: null
+agents:
+  last_session:
+    agent: codex
+    at: "2026-09-24T11:35:10Z"
+    summary: Added a source-grounded Control Center status snapshot. Functional and release checks were
+      not run.
+    commits: 1
